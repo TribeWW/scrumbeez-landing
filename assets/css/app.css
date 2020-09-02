@@ -5141,7 +5141,7 @@ select {
 	##  Section Title
 	--------------------------------------------------------------*/
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 
 .section-title .sub-title {
@@ -7203,6 +7203,7 @@ select {
 }
 
 /* Tabs */
+
 #pix-tabs-nav {
 	text-align: center;
 	list-style: none;

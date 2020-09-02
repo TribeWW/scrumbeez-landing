@@ -126,7 +126,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
             }
 
             // Show first content by default
-            $('#pix-tabs-nav li:nth-child(2)').addClass('active');
+            $('#pix-tabs-nav li:nth-child(1)').addClass('active');
             $('#pix-tabs-content .content').hide();
             $('#pix-tabs-content .content:nth-child(2)').show();
 
@@ -605,6 +605,24 @@ var PIXELSIGNS = PIXELSIGNS || {};
                 window.location.hash = hash;
             }, 300);
         }
+    });
+
+
+    // click function
+    $('#social-media').on('click', function() {
+
+        var highlightedTab = document.querySelector("#pix-tabs-nav li:nth-child(5)");
+        window.location.hash = 'social-media';
+
+        $('#pix-tabs-nav li').removeClass('active');
+        $('#pix-tabs-nav li:nth-child(5)').addClass('active');
+        $('#pix-tabs-content .content').hide();
+
+
+        var activeTab = $(highlightedTab).find('a').attr('href');
+        
+        $(activeTab).fadeIn(400);
+        return false;
     });
 
 })(jQuery);
