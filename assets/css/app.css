@@ -16787,3 +16787,19 @@ Download Two
 	color: black;
 	font-weight: bold;
 }
+
+.modal,
+.modal-header,
+.modal-title {
+	text-align: center;
+	display: inline;
+}
+
+@media (min-width: 576px) {
+.form-inline .form-control  {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+}
+

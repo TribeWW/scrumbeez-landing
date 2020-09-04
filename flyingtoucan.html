@@ -115,7 +115,7 @@
 							</ul>
 
 							<div class="nav-right">
-								<a href="signin.html" class="nav-btn">Sign In</a>
+								<a href="signin.html" class="nav-btn" data-toggle="modal" data-target=" #myModal">Contact Us</a>
 							</div>
 						</div>
 						<!-- /.menu-wrapper -->
@@ -145,7 +145,7 @@
 						<div class="marketing-about-content">
 							<div class="section-title style-six text-left">
 								<h2 class="title wow fadeInUp" data-wow-delay="0.3s">
-									<span>We Are The Ultimate Partner for Tour &and; Activity Operators</span><br>
+									<span>We Are The Ultimate Partner for Tour & Activity Operators</span><br>
 									 Who Want To … 
 								</h2>
 
@@ -174,7 +174,7 @@
 									</li>
 								</ul>
 
-								<a href="#" class="pix-btn btn-round btn-five wow fadeInUp" data-wow-delay="0.7s">Learn More</a>
+								<a href="#" class="pix-btn btn-round btn-five wow fadeInUp" data-wow-delay="0.7s" data-toggle="modal" data-target=" #myModal">Get A Free Quote</a>
 							</div>
 						</div>
 						<!-- /.marketing-about-content -->
@@ -186,6 +186,64 @@
 			<!-- /.container -->
 		</section>
 		<!-- /.about-marketing -->
+
+
+
+
+<!-- MODAL -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Subscribe to our Mailing List
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Simply enter your name and email! We will get in touch with you <em>right away!</em></p>
+                <form class="form-inline" role="form">
+                    <div class="container-fluid">
+                        <div class="form-row">
+                            <div class="form-group col-6">
+                                <label class="sr-only" for="subscribe-name">Your name</label>
+                                <input type="text" class="form-control" placeholder="Your name*"
+                                    id="subscribe-name">
+                            </div>
+                            <div class="form-group col-6">
+                                <label class="sr-only" for="subscribe-name-last">Your last name</label>
+                                <input type="tel" class="form-control" placeholder="Your phonenumber"
+                                    id="subscribe-telephone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-6">
+                                <label class="sr-only" for="subscribe-email">Your email</label>
+                                <input type="email" class="form-control" placeholder="Your email*" id="subscribe-email">
+                            </div>
+                            <div class="form-group col-6">
+                                <label class="sr-only" for="website">Your Website</label>
+                                <input type="text" class="form-control" placeholder="Your Website" id="subscribe-website">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="form-row">
+                    <div class="col-4 offset-4">
+                        <input type="submit" class="btn btn-danger" value="Subscribe!">
+                    </div>
+                </div>
+                <hr>
+                <p><small>By providing your email you consent to receiving ocasional promotional emails &amp;
+                        newsletters. <br>No spam. Just good stuff. We respect your privacy
+                        &amp; you may unsubscribe at any time.</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 		
@@ -897,183 +955,7 @@
 		</section><!-- /.featured -->
 
 		
-		<!-- =============================== -->
-		<!--               Pricing           -->
-		<!-- =============================== -->
-
-		<!-- <section class="pricing-single-one" id="pricing">
-			<div class="container">
-				<div class="section-title text-center">
-					<h3 class="sub-title wow pixFadeUp">Pricing Plan</h3>
-					<h2 class="title wow pixFadeUp" data-wow-delay="0.3s">
-						Three Packages Which Take Care Of Your Digital Strategy <br>
-						You may choose
-					</h2>
-				</div>
-				<!-- /.section-title -->
-				<nav class="pricing-tab wow pixFadeUp" data-wow-delay="0.4s">
-					<span class="monthly_tab_title tab-btn">
-						Monthly
-					</span>
-					<span class="pricing-tab-switcher"></span>
-					<span class="annual_tab_title tab-btn">
-						Annual
-					</span>
-				</nav>
-
-				<div class="row advanced-pricing-table no-gutters wow pixFadeUp" data-wow-delay="0.5s">
-
-					<div class="col-lg-4">
-						<div class="pricing-table br-left">
-							<div class="pricing-header pricing-amount">
-								<div class="annual_price">
-									<h2 class="price">$1999.00</h2>
-								</div>
-								<!-- /.annual_price -->
-
-								<div class="monthly_price">
-									<h2 class="price">$199.00</h2>
-								</div>
-								<!-- /.monthly_price -->
-
-								<h3 class="price-title">Basic Account</h3>
-								<p>Only for first month</p>
-							</div>
-							<!-- /.pricing-header -->
-
-							<ul class="price-feture">
-								<h4>Digital Identity</h4>
-								<hr>
-								<li class="have">Hosting</li>
-								<li class="have">Scrumbeez Travel Template</li>
-								<li class="have">Mobile Friendly</li>
-								<li class="have">60 Keywords</li>
-								<li class="have">6 Product Descriptions</li>
-								<li class="have">Security Updates</li>
-								<h4>Digital Growth</h4>
-								<hr>
-								<li class="have">On Page SEO</li>
-								<li class="have">Monthly Analytics</li>
-								<li class="have">Consultancy</li>
-							</ul>
-
-							<div class="action text-center">
-								<a href="#" class="pix-btn btn-outline">Get Started</a>
-							</div>
-						</div>
-						<!-- /.pricing-table -->
-					</div>
-					<!-- /.col-lg-4 -->
-
-					<div class="col-lg-4">
-						<div class="pricing-table color-two">
-							<div class="pricing-header pricing-amount">
-								<div class="annual_price">
-									<h2 class="price">$4999.00</h2>
-								</div>
-								<!-- /.annual_price -->
-
-								<div class="monthly_price">
-									<h2 class="price">$499.00</h2>
-								</div>
-								<!-- /.monthly_price -->
-
-								<h3 class="price-title">Standard Account</h3>
-								<p>Only for first month</p>
-							</div>
-							<!-- /.pricing-header -->
-
-							<ul class="price-feture">
-								<h4>Digital Identity</h4>
-								<hr>
-								<li class="have">Hosting</li>
-								<li class="have">Scrumbeez Travel Template</li>
-								<li class="have">Mobile Friendly</li>
-								<li class="have">120 Keywords</li>
-								<li class="have">12 Product Descriptions</li>
-								<li class="have">Security Updates</li>
-								<h4>Digital Growth</h4>
-								<hr>
-								<li class="have">On Page SEO</li>
-								<li class="have">24 HA backlinks</li>
-								<li class="have">24 blogs</li>
-								<li class="have">Page Speed Optimization</li>
-								<li class="have">3 OTA channels</li>
-								<li class="have">Monthly Analytics</li>
-								<li class="have">Consultancy</li>
-							</ul>
-
-							<div class="action text-center">
-								<a href="#" class="pix-btn btn-outline">Get Started</a>
-							</div>
-						</div>
-						<!-- /.pricing-table -->
-					</div>
-					<!-- /.col-lg-4 -->
-
-					<div class="col-lg-4">
-						<div class="pricing-table color-three">
-
-							<div class="pricing-header pricing-amount">
-								<div class="annual_price">
-									<h2 class="price">$9999.00</h2>
-								</div>
-								<!-- /.annual_price -->
-
-								<div class="monthly_price">
-									<h2 class="price">$999.00</h2>
-								</div>
-								<!-- /.monthly_price -->
-
-								<h3 class="price-title">Premium Account</h3>
-								<p>Only for first month</p>
-							</div>
-							<!-- /.pricing-header -->
-
-							<ul class="price-feture">
-								<h4>Digital Identity</h4>
-								<hr>
-								<li class="have">Hosting</li>
-								<li class="have">Custom Travel Template</li>
-								<li class="have">Mobile Friendly</li>
-								<li class="have">120 Keywords</li>
-								<li class="have">12 Product Descriptions</li>
-								<li class="have">Security Updates</li>
-								<h4>Digital Growth</h4>
-								<hr>
-								<li class="have">On Page SEO</li>
-								<li class="have">24 HA backlinks</li>
-								<li class="have">24 blogs</li>
-								<li class="have">Page Speed Optimization</li>
-								<li class="have">3 OTA channels</li>
-								<li class="have">1 Social Media Channel</li>
-								<li class="have">3 weekly Social Posts</li>
-								<li class="have">Monthly Analytics</li>
-								<li class="have">Consultancy</li>
-								<h4>Digital Expansion</h4>
-								<hr>
-								<li class="have">Opportunity Audit</li>
-							</ul>
-
-							<div class="action text-center">
-								<a href="#" class="pix-btn btn-outline">Get Started</a>
-							</div>
-						</div>
-						<!-- /.pricing-table -->
-					</div>
-					<!-- /.col-lg-4 -->
-
-
-				</div>
-				<!-- /.advanced-pricing-table -->
-			</div>
-			<!-- /.container -->
-
-		</section> -->
-		<!-- /.pricing -->
-
-
-
+		
 		<!--========================-->
 		<!--=         Team         =-->
 		<!--========================-->
