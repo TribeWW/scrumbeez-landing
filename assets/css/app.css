@@ -539,7 +539,10 @@ section {
 	background: #f98e47;
 	border: 2px solid #f98e47;
 	-webkit-box-shadow: none;
-					box-shadow: none;
+	box-shadow: none;
+	border-radius: 6px;
+	color: #fff;
+	padding: 4px 30px;
 }
 
 .pix-btn.btn-five.btn-round {
@@ -5276,7 +5279,7 @@ select {
 }
 
 .section-title.style-six .title {
-	font-size: 36px;
+	font-size: 45px;
 	color: #1a133b;
 	font-weight: 700;
 }
@@ -6499,9 +6502,10 @@ select {
 }
 
 .image-content-three .section-title .title {
-	font-size: 38px;
+	font-size: 35px;
 	line-height: 1.1;
 	margin-bottom: 25px;
+	
 }
 
 @media (max-width: 991px) {
@@ -6574,7 +6578,7 @@ select {
 }
 
 .job-image-content-wrapper-one {
-	margin-bottom: 160px;
+	margin-bottom: 40px;
 }
 
 @media (max-width: 991px) {
@@ -11806,8 +11810,10 @@ Logo List
 }
 
 .mar-about-image {
-	margin-left: -180px;
-	margin-top: -20px;
+	
+	vertical-align: middle;
+	
+
 }
 
 @media (max-width: 991px) {
@@ -16767,6 +16773,7 @@ Download Two
 	#footer.footer-four .site-info .site-info-inner {
 		display: block;
 	}
+	
 }
 
 /* Mods By MP */
@@ -16802,4 +16809,29 @@ Download Two
     vertical-align: middle;
 }
 }
+
+.wow.fadeInDown.banner-img.responsive {
+	
+	vertical-align: middle;
+}
+
+img.wow.fadeInUp {
+	height: 80%;
+	width: 80%;
+}
+
+
+img.wow.fadeIn {
+	height: 80%;
+	width: 80%;
+}
+
+#banner-row{
+	padding: 50px 0 0;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+  }
 
