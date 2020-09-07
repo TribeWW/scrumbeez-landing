@@ -449,8 +449,8 @@ section {
 }
 
 .pix-btn.btn-outline:hover {
-	background: #fa7070;
-	color: #fff;
+	background: #fff;
+	color: #fa7070;
 	-webkit-box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
 					box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
 }
@@ -471,11 +471,12 @@ section {
 }
 
 .pix-btn.btn-light {
-	background: #fff;
-	color: #fa7070;
-	border: 2px solid #fff;
-	padding: 14px 40px;
+	background: #fa8670;
+	color: #fff;
+	padding: 5px 30px;
 }
+
+
 
 .pix-btn.btn-light:focus {
 	-webkit-box-shadow: none;
@@ -488,9 +489,10 @@ section {
 }
 
 .pix-btn.btn-light:hover {
-	background: transparent;
-	color: #fff;
-	border-color: #fff;
+	background: #fff;
+	color: #fa8670;
+	border-color: #fa8670;
+	border: solid 2px;
 }
 
 .pix-btn.btn-light.btn-outline {
@@ -4161,10 +4163,11 @@ select {
 }
 
 .animate-promo-mockup {
-	position: relative;
-	width: 830px;
-	height: 600px;
-	margin-left: -40px;
+	position: absolute;
+	float: left;
+	height: 400px;
+	width: 400px;
+	
 }
 
 .animate-promo-mockup img {
@@ -5218,6 +5221,10 @@ select {
 	color: #2b2350;
 }
 
+.section-title.style-three.banner {
+	text-align: left;
+}
+
 .section-title.dark-title .sub-title,
 .section-title.dark-title .title {
 	color: #fff;
@@ -5373,6 +5380,10 @@ select {
 }
 
 .saaspik-icon-box-wrapper.style-one .pixsass-icon-box-content .pixsass-icon-box-title a:hover {
+	color: #fa7070;
+}
+
+.saaspik-icon-box-wrapper.style-two .pixsass-icon-box-content .pixsass-icon-box-title:hover {
 	color: #fa7070;
 }
 
@@ -16836,3 +16847,16 @@ img.wow.fadeIn {
 	height: auto;
   }
 
+#cta-footer {
+	background: #fff;
+	color: #fa8670;
+	padding: 5px 30px;
+}
+
+#cta-footer:hover {
+	background: #fa8670;
+	color: #fff;
+	padding: 5px 30px;
+	border: 2px solid #fff
+	
+}
