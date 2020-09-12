@@ -2875,8 +2875,8 @@ select {
 }
 
 .banner.banner-four {
-	background-image: -o-linear-gradient(150deg, #262939 0%, #262939 100%);
-	background-image: linear-gradient(-60deg, #262939 0%, #262939 100%);
+	background-image: -o-linear-gradient(150deg, #262939 0%, rgb(71, 93, 105) 100%);
+	background-image: linear-gradient(-60deg, #262939 0%, rgb(71, 93, 105) 100%);
 	height: 1060px;
 	padding-top: 290px;
 }
