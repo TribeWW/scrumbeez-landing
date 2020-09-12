@@ -257,7 +257,7 @@ section {
 	--------------------------------------------------------------*/
 .pix-btn {
 	padding: 8px 30px;
-	background: #fa7070;
+	background: #FF7C31;
 	border-radius: 30px;
 	display: inline-block;
 	font-size: 14px;
@@ -323,7 +323,7 @@ section {
 
 
 .pix-btn.btn-light {
-	background: #fa8670;
+	background: #FF7C31;
 	color: #fff;
 	padding: 5px 30px;
 }
@@ -340,8 +340,8 @@ section {
 
 .pix-btn.btn-light:hover {
 	background: #fff;
-	color: #fa8670;
-	border-color: #fa8670;
+	color:#FF7C31;
+	border-color: #FF7C31;
 	border: solid 2px;
 }
 
@@ -11433,7 +11433,7 @@ Logo List
 	## Contact Us
 	--------------------------------------------------------------*/
 .contactus {
-	padding: 120px 0;
+	padding: 50px 0;
 }
 
 .gmap3-area {
