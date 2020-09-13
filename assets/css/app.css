@@ -2871,7 +2871,8 @@ select {
 }
 
 .banner.banner-three .bg-shape-inner img {
-	width: 100%;
+	width: 200%;
+	
 }
 
 .banner.banner-four {
@@ -2930,6 +2931,7 @@ select {
 .banner.banner-four .bg-shape-inner {
 	position: absolute;
 	bottom: -2px;
+	background-repeat: repeat-x;
 }
 
 .banner .banner-button-container {
@@ -5457,7 +5459,9 @@ select {
 }
 
 .featured-tax {
-	background-color:#FBE7B5;
+	
+	background-image: -o-linear-gradient(180deg,#FBE7B5 100%,#fff 10%);
+	background-image: linear-gradient(180deg, #FBE7B5 0%, #fff 100%);
 }
 
 .featured-ten {
@@ -6101,6 +6105,10 @@ select {
 
 .job-image-content-wrapper-one {
 	margin-bottom: 40px;
+}
+
+.job-image-content-wrapper-one-last {
+	margin-bottom: 120px;
 }
 
 @media (max-width: 991px) {
@@ -9780,8 +9788,8 @@ Logo List
 	##  Call To Action
 	--------------------------------------------------------------*/
 .call-to-action {
-	background-image: -o-linear-gradient(350deg, #FF7C31 0%, #282B38 100%);
-	background-image: linear-gradient(100deg, #FF7C31 0%, #282B38 100%);
+	background-image: -o-linear-gradient(350deg, #FF7C31 0%, #282B38 170%);
+	background-image: linear-gradient(100deg, #FF7C31 0%, #282B38 170%);
 	padding: 111px 0 120px;
 	overflow: hidden;
 }
@@ -16342,16 +16350,6 @@ Download Two
 	vertical-align: middle;
 }
 
-img.wow.fadeInUp {
-	height: 80%;
-	width: 80%;
-}
-
-
-img.wow.fadeIn {
-	height: 80%;
-	width: 80%;
-}
 
 #banner-row{
 	padding: 50px 0 0;
@@ -16377,36 +16375,81 @@ img.wow.fadeIn {
 }
 
 
-
-@media (min-width: 992px) { 
+ @media (min-width: 1650px) { 
 	#banner-img-flying {
-		position: absolute;
-		right: -10rem;
+		position: relative;
 		min-width: 200%;
-		top: -100px;
+		top: -80px;
+		right: 200px;
+	}
+	img.wow.fadeInUp {
+		min-width: 400%;
 	}
  }
+
+ @media (max-width: 1650px) { 
+	#banner-img-flying {
+		position: relative;
+		min-width: 150%;
+		top: -80px;
+		right: 100px;
+	}
+	img.wow.fadeInUp {
+		min-width: 400%;
+	}
+ }
+
+ @media (max-width: 1430px) { 
+	#banner-img-flying {
+		position: relative;
+		min-width: 125%;
+		top: 80px;
+		right: 100px;
+	}
+	img.wow.fadeInUp {
+		min-width: 400%;
+	}
+ }
+
+ @media (max-width: 1200px) { 
+	#banner-img-flying {
+		position: relative;
+		width: 100%;
+		top:80px
+		
+	}
+
+	img.wow.fadeInUp {
+		min-width: 400%;
+	}
+
+}
+
+@media (max-width: 920px) { 
+	#banner-img-flying {
+		position: relative;
+		width: 100%;
+		top:80px
+ }
+
+ img.wow.fadeInUp {
+	min-width: 400%;
+}
+}
+
+@media (max-width: 768px) { 
+	#banner-img-flying {
+		position: relative;
+		width: 100%;
+		top: -80px;
+	 }
 }
 
 @media (max-width: 576px) { 
 	#banner-img-flying {
 		position: relative;
 		width: 100%;
+		top: -80px;
 
- }
-}
-
-@media (max-width: 768px) { 
-	#banner-img-flying {
-		position: relative;
-		
-
- }
-}
-
-@media (max-width: 992px) { 
-	#banner-img-flying {
-		position: relative;
-		
  }
 }
