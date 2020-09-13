@@ -1876,6 +1876,15 @@ select {
 	position: relative;
 }
 
+@media (max-width: 1024px) {
+
+.site-header .site-main-menu li > a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+}
 .site-header .site-main-menu li > a:after {
 	content: '';
 	position: absolute;

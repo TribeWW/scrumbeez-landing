@@ -63,18 +63,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
                 parent.removeClass('is-open').find('.placeholder').text($(this).text());
             });
 
-            //initialize with 1st option
-            $(".lng-dropdown.init li:first-child").click();
-
-            var wow = new WOW({
-                boxClass: 'wow',
-                animateClass: 'animated',
-                offset: 0,
-                mobile: false,
-                live: true,
-                scrollContainer: null,
-            });
-            wow.init();
+            
 
             /* Bootstrap Accordion  */
             $('.faq .card').each(function() {
