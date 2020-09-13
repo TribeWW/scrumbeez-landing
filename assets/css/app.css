@@ -5856,7 +5856,7 @@ select {
 
 @media (max-width: 480px) {
 	.animaated-elements-three {
-		height: 440px;
+		height: 300px;
 	}
 }
 
@@ -5938,7 +5938,7 @@ select {
 
 @media (max-width: 480px) {
 	.animaated-elements-four {
-		height: 560px;
+		height: 400px;
 	}
 }
 
@@ -6113,7 +6113,7 @@ select {
 
 @media (max-width: 991px) {
 	.job-image-content-wrapper-one {
-		margin-bottom: 100px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -16378,9 +16378,10 @@ Download Two
  @media (min-width: 1650px) { 
 	#banner-img-flying {
 		position: relative;
-		min-width: 200%;
+		min-width: 175%;
 		top: -80px;
 		right: 200px;
+		
 	}
 	img.wow.fadeInUp {
 		min-width: 400%;
@@ -16414,7 +16415,7 @@ Download Two
  @media (max-width: 1200px) { 
 	#banner-img-flying {
 		position: relative;
-		width: 100%;
+		min-width: 150%;
 		top:80px
 		
 	}
@@ -16425,11 +16426,11 @@ Download Two
 
 }
 
-@media (max-width: 920px) { 
+@media (max-width: 1024px) { 
 	#banner-img-flying {
 		position: relative;
-		width: 100%;
-		top:80px
+		min-width: 130%;
+		top:10px
  }
 
  img.wow.fadeInUp {
@@ -16437,12 +16438,30 @@ Download Two
 }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 920px) { 
 	#banner-img-flying {
 		position: relative;
-		width: 100%;
-		top: -80px;
+		min-width: 150%;
+		top:20px
+ }
+
+ img.wow.fadeInUp {
+	min-width: 400%;
+}
+}
+
+@media (max-width: 767px) { 
+	#banner-img-flying {
+		position: relative;
+		min-width: 100%;
+		top: -40px;
+		left: 5px;
 	 }
+
+	 img.wow.fadeInUp {
+		min-width: 200%;
+	}
+	
 }
 
 @media (max-width: 576px) { 
@@ -16452,4 +16471,8 @@ Download Two
 		top: -80px;
 
  }
+
+ img.wow.fadeInUp {
+	min-width: 200%;
+}
 }
