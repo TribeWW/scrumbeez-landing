@@ -63,7 +63,18 @@ var PIXELSIGNS = PIXELSIGNS || {};
                 parent.removeClass('is-open').find('.placeholder').text($(this).text());
             });
 
-            
+            //initialize with 1st option
+            $(".lng-dropdown.init li:first-child").click();
+
+            var wow = new WOW({
+                boxClass: 'wow',
+                animateClass: 'animated',
+                offset: 0,
+                mobile: false,
+                live: true,
+                scrollContainer: null,
+            });
+            wow.init();
 
             /* Bootstrap Accordion  */
             $('.faq .card').each(function() {
@@ -115,7 +126,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
             }
 
             // Show first content by default
-            $('#pix-tabs-nav li:nth-child(1)').addClass('active');
+            $('#pix-tabs-nav li:nth-child(2)').addClass('active');
             $('#pix-tabs-content .content').hide();
             $('#pix-tabs-content .content:nth-child(2)').show();
 
@@ -584,34 +595,5 @@ var PIXELSIGNS = PIXELSIGNS || {};
     $(window).on('load', PIXELSIGNS.documentOnLoad.init);
     $(window).on('resize', PIXELSIGNS.documentOnResize.init);
     $(window).on('scroll', PIXELSIGNS.documentOnScroll.init);
-
-    $(document).ready(function () {
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (window.location.hash && isChrome) {
-            setTimeout(function () {
-                var hash = window.location.hash;
-                window.location.hash = "";
-                window.location.hash = hash;
-            }, 300);
-        }
-    });
-
-
-    // click function
-    $('#social-media').on('click', function() {
-
-        var highlightedTab = document.querySelector("#pix-tabs-nav li:nth-child(5)");
-        window.location.hash = 'social-media';
-
-        $('#pix-tabs-nav li').removeClass('active');
-        $('#pix-tabs-nav li:nth-child(5)').addClass('active');
-        $('#pix-tabs-content .content').hide();
-
-
-        var activeTab = $(highlightedTab).find('a').attr('href');
-        
-        $(activeTab).fadeIn(400);
-        return false;
-    });
 
 })(jQuery);

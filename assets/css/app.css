@@ -5467,11 +5467,13 @@ select {
 					animation: animationFramesOne 20s infinite linear;
 }
 
-.featured-tax {
-	
-	background-image: -o-linear-gradient(180deg,#FBE7B5 100%,#fff 10%);
-	background-image: linear-gradient(180deg, #FBE7B5 0%, #fff 100%);
+.featured-tax
+ {
+	background-image: -o-linear-gradient(180deg,#fff ,#FBE7B5 ,#FBE7B5,#FBE7B5, #fff );
+	background-image: linear-gradient(180deg,#fff ,#FBE7B5 ,#FBE7B5,#FBE7B5, #fff );
 }
+
+
 
 .featured-ten {
 	padding: 115px 0 90px;
@@ -8881,12 +8883,14 @@ select {
 	margin-bottom: 70px;
 	max-width: 370px;
 	margin: 0 auto 70px;
+	
 }
 
 .team-member .member-avater {
 	position: relative;
 	overflow: hidden;
 	border-radius: 10px;
+	box-shadow: 0px 20px 60px 0px rgba(1, 51, 32, 0.1);
 }
 
 .team-member .member-avater svg {
@@ -9651,6 +9655,8 @@ select {
 
 .brand-logo {
 	text-align: center;
+	height: 100px;
+	width: 100px;
 }
 
 .brand-logo img {
@@ -15779,7 +15785,7 @@ Download Two
 }
 
 #footer .footer-inner {
-	padding: 116px 0 62px;
+	padding: 20px 0 20px;
 }
 
 #footer .widget.footer-widget .widget-title {
@@ -15792,7 +15798,7 @@ Download Two
 }
 
 #footer .widget.footer-widget p {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 #footer .footer-menu {
@@ -15899,7 +15905,7 @@ Download Two
 }
 
 #footer .site-info {
-	padding: 36px 0;
+	padding: 5px 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -16232,14 +16238,18 @@ Download Two
 }
 
 #footer.footer-marketing {
-	background: #FBFBFE;
+	background: url("../img/mountains.png") no-repeat center;
+	background-size: 100%;
 	position: relative;
+	color: white;
 }
 
+
 #footer.footer-marketing .footer-inner {
-	padding: 116px 0 112px;
+	padding: 20px 0 20px;
 	position: relative;
 	z-index: 222;
+	
 }
 
 #footer.footer-marketing .widget.footer-widget .widget-title {
@@ -16485,3 +16495,6 @@ Download Two
 	min-width: 200%;
 }
 }
+
+
+
