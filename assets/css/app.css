@@ -2885,10 +2885,17 @@ select {
 }
 
 .banner.banner-four {
-	background-image: -o-linear-gradient(150deg, #262939 0%, rgb(71, 93, 105) 100%);
-	background-image: linear-gradient(-60deg, #262939 0%, rgb(71, 93, 105) 100%);
+	/*background-image: -o-linear-gradient(150deg, #262939 0%, rgb(71, 93, 105) 100%);
+	background-image: linear-gradient(-60deg, #262939 0%, rgb(71, 93, 105) 100%);*/
+	background-color: #234d9e;
+	background-image: linear-gradient(51deg, #234d9e 0%, #80D0C7 100%);
 	height: 1060px;
 	padding-top: 290px;
+}
+
+#waves {
+	width: 100%;
+
 }
 
 .banner.banner-four .banner-content-wrap-two {
@@ -2902,9 +2909,9 @@ select {
 }
 
 .banner.banner-four .banner-content .banner-title {
-	font-size: 60px;
+	font-size: 50px;
 	line-height: 76px;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: 20px;
 }
 
@@ -5469,8 +5476,9 @@ select {
 
 .featured-tax
  {
-	background-image: -o-linear-gradient(180deg,#fff ,#FBE7B5 ,#FBE7B5,#FBE7B5, #fff );
-	background-image: linear-gradient(180deg,#fff ,#FBE7B5 ,#FBE7B5,#FBE7B5, #fff );
+	background-color: #F4F5F7;
+
+
 }
 
 
@@ -7764,7 +7772,7 @@ select {
 }
 
 .testimonials-four {
-	background: #fbfafd;
+	background-color: #FFFFFF;
 	padding: 115px 0;
 	padding-top: 50px;
 	padding-bottom: 100px;
@@ -8016,6 +8024,7 @@ select {
 .testimonial-four {
 	text-align: center;
 	padding-top: 30px;
+	background-color: #FFFFFF;
 }
 
 .testimonial-four > * {
@@ -8076,6 +8085,7 @@ select {
 	padding: 100px 0;
 	margin: 100px 0 20px;
 	overflow: hidden;
+	background-color: #F4F5F7;
 }
 
 #testimonial-marketing .testimonial {
@@ -9803,8 +9813,9 @@ Logo List
 	##  Call To Action
 	--------------------------------------------------------------*/
 .call-to-action {
-	background-image: -o-linear-gradient(350deg, #FF7C31 0%, #282B38 170%);
-	background-image: linear-gradient(100deg, #FF7C31 0%, #282B38 170%);
+	/*background-image: -o-linear-gradient(180deg, #FFF 0%, #282B38 1%, 0.9);
+	background-image: linear-gradient(180deg, #FFF 00%, #282B38 1%, 0.9);*/
+	background-color: #F4F5F7;
 	padding: 111px 0 120px;
 	overflow: hidden;
 }
@@ -11321,6 +11332,7 @@ Logo List
 
 .feature-lists {
 	margin-bottom: 25px;
+	margin-top: 40px;
 	padding: 0;
 	list-style: none;
 }
@@ -11353,7 +11365,7 @@ Logo List
 }
 
 .feature-lists li .content h4 {
-	font-size: 16px;
+	font-size: 24px;
 	color: #1a133b;
 }
 
@@ -16225,7 +16237,7 @@ Download Two
 
 #footer.footer-app .site-info {
 	display: block;
-	border-top-color: #2f3255;
+	border-top-color: rgb(47, 50, 85);
 	padding: 25px 0;
 }
 
@@ -16238,10 +16250,12 @@ Download Two
 }
 
 #footer.footer-marketing {
-	background: url("../img/mountains.png") no-repeat center;
+	background: url("../img/mountains3.png") no-repeat center;
+	background-color: #F4F5F7;
 	background-size: 100%;
 	position: relative;
 	color: white;
+	padding-top: 50px;
 }
 
 
@@ -16496,5 +16510,11 @@ Download Two
 }
 }
 
+#why_us {
+	background-color: #F4F5F7;
+	padding-bottom: 50px;
+}
 
-
+.team-content {
+	padding: 50px 100px 25px;
+}
