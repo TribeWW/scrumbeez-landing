@@ -16407,6 +16407,9 @@ Download Two
 	
 }
 
+.team-content {
+	padding: 50px 100px 25px;
+}
 
  @media (min-width: 1650px) { 
 	#banner-img-flying {
@@ -16417,6 +16420,8 @@ Download Two
 		
 	}
 	img.wow.fadeInUp {
+		position: relative;
+		width: 100%;
 		min-width: 400%;
 	}
  }
@@ -16429,6 +16434,8 @@ Download Two
 		right: 100px;
 	}
 	img.wow.fadeInUp {
+		position: relative;
+		width: 100%;
 		min-width: 400%;
 	}
  }
@@ -16441,6 +16448,8 @@ Download Two
 		right: 100px;
 	}
 	img.wow.fadeInUp {
+		position: relative;
+		width: 100%;
 		min-width: 400%;
 	}
  }
@@ -16454,6 +16463,8 @@ Download Two
 	}
 
 	img.wow.fadeInUp {
+		position: relative;
+	width: 100%;
 		min-width: 400%;
 	}
 
@@ -16467,6 +16478,8 @@ Download Two
  }
 
  img.wow.fadeInUp {
+	position: relative;
+	width: 100%;
 	min-width: 400%;
 }
 }
@@ -16479,6 +16492,8 @@ Download Two
  }
 
  img.wow.fadeInUp {
+	position: relative;
+	width: 100%;
 	min-width: 400%;
 }
 }
@@ -16492,6 +16507,8 @@ Download Two
 	 }
 
 	 img.wow.fadeInUp {
+		position: relative;
+		width: 100%;
 		min-width: 200%;
 	}
 	
@@ -16506,8 +16523,22 @@ Download Two
  }
 
  img.wow.fadeInUp {
+	position: relative;
+	width: 100%;
 	min-width: 200%;
 }
+}
+
+@media (max-width: 375px) {
+	img.wow.fadeInUp {
+		position: relative;
+		width: 100%;
+		min-width: 100%;
+	}
+
+	.team-content {
+		padding: 25px 10px;
+	}
 }
 
 #why_us {
@@ -16515,6 +16546,4 @@ Download Two
 	padding-bottom: 50px;
 }
 
-.team-content {
-	padding: 50px 100px 25px;
-}
+

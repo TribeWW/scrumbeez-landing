@@ -6,8 +6,9 @@
 $name       = $_POST['name'];
 $email      = $_POST['email'];
 $subject    = isset($_POST['subject']) && !empty($_POST['subject']) ? $_POST['subject'] : 'New message from your site contact form';
+$website	= $_POST['website'];
 $content    = $_POST['content'];
-$toMail     = 'Sebastien Remience <matthias@scrumbeez.com>'; // Your name & mail address here example 'Your Name <contact@domain.com>'.
+$toMail     = 'Matthias Plancke <matthias.anthony.plancke@gmail.com>'; // Your name & mail address here example 'Your Name <contact@domain.com>'.
 
 /*-----------------------------------------------
 	# Error Reporting need first
@@ -59,7 +60,7 @@ if ($error == true) {
 } else {
 	$body   .= $_SERVER['HTTP_REFERER'] ? '<br><br><br>This form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
 	$error   = false;
-	$msg    .= '<strong>Success:</strong> Your message has been send.';
+	$msg    .= '<strong>Thank you! We have received your message.</strong> We will get back to you as soon as possible.';
 
 	// Mail Headers
 	$headers   = array();

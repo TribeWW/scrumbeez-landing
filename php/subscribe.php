@@ -2,18 +2,22 @@
 /*-----------------------------------------------
   # Variables
   ---------------------------------------------*/
-$MailchimpAPI 	= 'a1218bb07e0b0245c3680054c8eee697-us16'; //<- Your Maichimp API Key
-$MailchimpLID 	= 'b08d24d82a'; //<- Your Maichimp List IDkey
+$MailchimpAPI 	= '66b11757be53d7e5b54c505251e847ac-us17'; //<- Your Maichimp API Key
+$MailchimpLID 	= '035ecf2a99'; //<- Your Maichimp List IDkey
 
-$email 			= $_POST['email'];
-$fname 			= isset($_POST['fname']) && !empty($_POST['fname']) ? $_POST['fname'] : '';
-$lname 			= isset($_POST['lname']) && !empty($_POST['lname']) ? $_POST['lname'] : '';
+$name       = $_POST['name'];
+$email      = $_POST['email'];
+$subject    = isset($_POST['subject']) && !empty($_POST['subject']) ? $_POST['subject'] : 'New message from your site contact form';
+$website	= $_POST['website'];
+$content    = $_POST['content'];
 
 // Data for Mailchimp
 $data = array(
 	'email'		=> $email,
-	'fname'		=> $fname,
-	'lname'		=> $lname,
+	'name'		=> $name,
+	'subject'	=> $subject,
+	'website'	=> $website,
+	'content'	=> $content,
 	'status'	=> 'subscribed'
 );
 
@@ -30,8 +34,10 @@ function syncMailchimp( $MailchimpAPI, $MailchimpLID, $data ) {
 		'email_address' => $data['email'],
 		'status'		=> $data['status'], // "subscribed","unsubscribed","cleaned","pending"
 		'merge_fields'	=> array(
-			'FNAME'		=> $data['fname'],
-			'LNAME'		=> $data['lname']
+			'NAME'		=> $data['name'],
+			'SUBJECT'		=> $data['subject'],
+			'WEBSITE'	=> $data['website'],
+			'CONTENT'	=> $data['content']
 		)
 	));
 
