@@ -1115,6 +1115,19 @@ select {
 	padding: 10px 0;
 }
 
+.pix-header-fixed {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 999999;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(79, 35, 35, 0.08);
+					box-shadow: 0px 10px 20px 0px rgba(79, 35, 35, 0.08);
+	-webkit-animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+					animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+	background: #fff;
+}
+
 .site-header.header-nine.header_trans-fixed .site-logo a.logo{
 	color: black;
 	font-weight: bold;
@@ -1441,6 +1454,23 @@ select {
 	-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 	margin-bottom: 90px;
+}
+
+.saaspik-icon-box-wrapper.style-ten {
+	padding: 50px 40px;
+	border-radius: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0px 20px 60px 0px rgba(1, 51, 32, 0.1);
+					box-shadow: 0px 20px 60px 0px rgba(1, 51, 32, 0.1);
+	text-align: center;
+}
+
+.saaspik-icon-box-wrapper.style-ten .pixsass-icon-box-content .pixsass-icon-box-title {
+	margin-bottom: 15px;
+}
+
+.saaspik-icon-box-wrapper.style-ten .pixsass-icon-box-content p {
+	margin-bottom: 30px;
 }
 
 .featured-tax
