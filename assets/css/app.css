@@ -45,6 +45,15 @@
 /* Based on http://coding.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration/ */
 
 /* Base */
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800);
+	font-display: swap;
+  }
+
 @-webkit-keyframes slide-down {
 	0% {
 		opacity: 1;
@@ -1525,6 +1534,11 @@ select {
 }
 
 .animaated-elements-three .map-bg {
+	position: absolute;
+	top: 100px;
+}
+
+.animaated-elements-four .map-bg {
 	position: absolute;
 	top: 100px;
 }
